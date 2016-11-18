@@ -64,8 +64,10 @@ class GameEngine(object):
 		form = web.input(action=None)
 
 		# todo: 여기에 버그가 있음
+		# 한글 input 문제
 		if session.room and form.action:
 			session.room = session.room.go(form.action)
+			# web.debug(session.room)
 
 		web.seeother("/game")
 
