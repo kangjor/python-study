@@ -1,4 +1,4 @@
-#!/Users/ken/Documents/tmp/projects/env1/bin/python
+#!/Users/ken/Documents/_github/python-study/projects/env1/bin/python
 
 import sys
 import getopt
