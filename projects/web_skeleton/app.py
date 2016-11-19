@@ -62,6 +62,7 @@ class GameEngine(object):
 
 	def POST(self):
 		form = web.input(action=None)
+		# return form.action
 
 		# todo: 여기에 버그가 있음
 		# 한글 input 문제
