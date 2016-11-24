@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+"""
+# alternatives to thread module
+subprocess (2.4)
+multiprocessing (2.6)
+concurrent.futures (3.2)
+"""
 from atexit import register
 from re import compile
 from threading import Thread
